@@ -1,0 +1,163 @@
+port: 7890
+
+socks-port: 7891
+
+allow-lan: true
+
+mode: Rule
+
+log-level: info
+
+external-controller: :9090
+
+proxies:
+
+  - {name: 🇭🇰 中转|香港CMHK01|公众号：光头院长, server: cm-jm.okvpn.cc, port: 20001, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+
+  - {name: 🇭🇰 中转|香港CMHK02|公众号：光头院长, server: cm-jm.okvpn.cc, port: 20001, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+
+  - {name: 🇭🇰 中转|香港CMHK03|公众号：光头院长, server: cm-jm.okvpn.cc, port: 20001, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+
+  - {name: 🇭🇰 中转|香港CMHK08|公众号：光头院长, server: cu-cs.okvpn.xyz, port: 30011, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+
+  - {name: 🇭🇰 中转|香港WTT11公众号：光头院长, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+
+  - {name: 🇭🇰 中转|香港WTT14|公众号：光头院长, server: cu-cs.okvpn.xyz, port: 30012, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+
+  - {name: 🇨🇳 中转|台湾HinNt06|公众号：光头院长, server: cm-jm.okvpn.xyz, port: 20047, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+
+  - {name: 🇨🇳 中转|台湾HinNt09|微信：ddly000, server: cu-cs.okvpn.xyz, port: 30021, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+
+  - {name: 🇨🇳 中转|台湾HinNt10|微信：ddly000, server: cu-cs.okvpn.xyz, port: 30021, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+
+  - {name: 🇺🇲 中转|美国NTT06|微信：ddly000, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+
+  - {name: 🇺🇲 中转|美国NTT07|微信：ddly000, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+
+  - {name: 🇺🇲 中转|美国NTT08|微信：ddly000, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+
+  - {name: "🇺🇲 中转|美国NTT09|华中隧道[流媒体解锁]", server: cu-cs.okvpn.xyz, port: 30013, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+
+  - {name: "🇺🇲 中转|美国NTT10|华中隧道[流媒体解锁]", server: cu-cs.okvpn.xyz, port: 30013, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+
+  - {name: "🇸🇬 中转|新加坡Singtel01|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+
+  - {name: "🇸🇬 中转|新加坡Singtel03|华中隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+
+  - {name: "🇸🇬 中转|新加坡Singtel04|华中隧道[流媒体解锁]", server: cu-cs.okvpn.xyz, port: 30014, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+
+  - {name: "🇸🇬 中转|新加坡Singtel05|华中隧道[流媒体解锁]", server: cu-cs.okvpn.xyz, port: 30014, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+
+  - {name: "🇨🇳 中转|台湾HiNet01|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+
+  - {name: "🇨🇳 中转|台湾HiNet02|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+
+  - {name: "🇨🇳 中转|台湾HiNet03|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+
+  - {name: "🇨🇳 中转|台湾HiNet04|华中隧道[流媒体解锁]", server: cu-cs.okvpn.xyz, port: 30015, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+
+  - {name: "🇨🇳 中转|台湾HiNet05|华中隧道[流媒体解锁]", server: cu-cs.okvpn.xyz, port: 30015, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+
+  - {name: "🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]", server: cm-jm.okvpn.cc, port: 20015, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+
+  - {name: "🇯🇵 中转|日本GMO07|华南隧道[流媒体解锁]", server: cm-jm.okvpn.cc, port: 20015, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+
+  - {name: "🇯🇵 中转|日本GMO08|华南隧道[流媒体解锁]", server: cm-jm.okvpn.cc, port: 20015, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+
+  - {name: "🇯🇵 中转|日本GMO09|华中隧道[流媒体解锁]", server: cu-cs.okvpn.xyz, port: 30019, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+
+  - {name: "🇯🇵 中转|日本GMO10|华中隧道[流媒体解锁]", server: cu-cs.okvpn.xyz, port: 30019, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+
+  - {name: 🇳🇱 中转|荷兰RackNerd01|华南隧道, server: cm-jm.okvpn.cc, port: 20013, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+
+  - {name: 🇳🇱 中转|荷兰RackNerd02|华南隧道, server: cm-jm.okvpn.cc, port: 20013, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+
+  - {name: 🇳🇱 中转|荷兰RackNerd03|华南隧道, server: cm-jm.okvpn.cc, port: 20013, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+
+  - {name: 🇳🇱 中转|荷兰RackNerd04|华中隧道, server: cu-cs.okvpn.xyz, port: 30020, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+
+  - {name: 🇳🇱 中转|荷兰RackNerd05|华中隧道, server: cu-cs.okvpn.xyz, port: 30020, type: vmess, uuid: b7b5abdb-f51c-46cc-96cd-a303993bd458, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+
+proxy-groups:
+
+  - name: Proxies
+
+    type: select
+
+    proxies:
+
+      - HK
+
+      - JP
+
+      - SG
+
+      - TW
+
+      - US
+
+      - 🇭🇰 中转|香港CMHK01|公众号：光头院长
+
+      - 🇭🇰 中转|香港CMHK02|公众号：光头院长
+
+      - 🇭🇰 中转|香港CMHK03|公众号：光头院长
+
+      - 🇭🇰 中转|香港CMHK08|公众号：光头院长
+
+      - 🇭🇰 中转|香港WTT11公众号：光头院长
+
+      - 🇭🇰 中转|香港WTT14|公众号：光头院长
+
+      - 🇨🇳 中转|台湾HinNt06|公众号：光头院长
+
+      - 🇨🇳 中转|台湾HinNt09|微信：ddly000
+
+      - 🇨🇳 中转|台湾HinNt10|微信：ddly000
+
+      - 🇺🇲 中转|美国NTT06|微信：ddly000
+
+      - 🇺🇲 中转|美国NTT07|微信：ddly000
+
+      - 🇺🇲 中转|美国NTT08|微信：ddly000
+
+      - 🇺🇲 中转|美国NTT09|华中隧道[流媒体解锁]
+
+      - 🇺🇲 中转|美国NTT10|华中隧道[流媒体解锁]
+
+      - 🇸🇬 中转|新加坡Singtel01|华南隧道[流媒体解锁]
+
+      - 🇸🇬 中转|新加坡Singtel03|华中隧道[流媒体解锁]
+
+      - 🇸🇬 中转|新加坡Singtel04|华中隧道[流媒体解锁]
+
+      - 🇸🇬 中转|新加坡Singtel05|华中隧道[流媒体解锁]
+
+      - 🇨🇳 中转|台湾HiNet01|华南隧道[流媒体解锁]
+
+      - 🇨🇳 中转|台湾HiNet02|华南隧道[流媒体解锁]
+
+      - 🇨🇳 中转|台湾HiNet03|华南隧道[流媒体解锁]
+
+      - 🇨🇳 中转|台湾HiNet04|华中隧道[流媒体解锁]
+
+      - 🇨🇳 中转|台湾HiNet05|华中隧道[流媒体解锁]
+
+      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
+
+      - 🇯🇵 中转|日本GMO07|华南隧道[流媒体解锁]
+
+      - 🇯🇵 中转|日本GMO08|华南隧道[流媒体解锁]
+
+      - 🇯🇵 中转|日本GMO09|华中隧道[流媒体解锁]
+
+      - 🇯🇵 中转|日本GMO10|华中隧道[流媒体解锁]
+
+      - 🇳🇱 中转|荷兰RackNerd01|华南隧道
+
+      - 🇳🇱 中转|荷兰RackNerd02|华南隧道
+
+      - 🇳🇱 中转|荷兰RackNerd03|华南隧道
+
+      - 🇳🇱 中转|荷兰RackNerd04|华中隧道
+
+      - 🇳🇱 中转|荷兰Rack
